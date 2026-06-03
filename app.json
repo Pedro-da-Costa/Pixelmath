@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Pixel Math",
+    "slug": "pixel-math",
+    "version": "1.0.0",
+    "orientation": "portrait",
+
+    "icon": "assets/icone.png",
+
+    "userInterfaceStyle": "dark",
+
+    "splash": {
+      "image": "assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "assets/icone transparente .png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.seuusuario.pixelmath"
+    },
+
+    "web": {
+      "favicon": "./assets/chess_king_transparent.png"
+    }
+  }
+}
